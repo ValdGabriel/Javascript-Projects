@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
 h1 {
     font-size: 2.5rem;
     text-align: center;
@@ -11,6 +14,7 @@ body {
 header {
     background-color: #f4f4f4;
     padding: 20px;
+
 }
 
 nav ul {
@@ -36,12 +40,18 @@ main {
     padding: 20px;
 }
 
+h2,h3{
+    font-size: medium;
+}
+
 h1, h2 {
     color: #0077b6;
 }
 
 footer {
-    background-color: #f4f4f4;
+    font-family: 'Playfair Display', serif;
+    background-color: #0c0c0c;
     padding: 20px;
     text-align: center;
+    color: #f4f4f4;
 }
